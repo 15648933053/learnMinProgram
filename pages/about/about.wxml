@@ -1,2 +1,9 @@
 <!--pages/about/about.wxml-->
 <text>pages/about/about.wxml</text>
+
+<view>我的年龄是：{{age}}</view>
+<view wx:for = "{{students}}" >  {{item.id}} - {{item.name}}   </view>
+
+<view  >     {{ counter  }}      </view>
+
+<button size="mini" bindtap="bindjia" >+</button>

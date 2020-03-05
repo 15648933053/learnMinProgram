@@ -5,7 +5,12 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    age:20 ,
+    students:[
+      {name:'zs',id:2018},
+      {name:'ls',id:20202020}
+    ],
+    counter:0
   },
 
   /**
@@ -62,5 +67,11 @@ Page({
    */
   onShareAppMessage: function () {
 
+  } , 
+
+  bindjia(){
+    this.setData({
+      counter:this.data.counter+1
+    })
   }
 })
