@@ -1,20 +1,5 @@
-// pages/home/home.js
-//getApp()获取App（）产生的事例对象
-
-const app = getApp();
-
-const name = app.globalData.name
-const age = app.globalData.age
-
-console.log(name)
-console.log(age)
-
+// pages/classify/classify.js
 Page({
-
-  handerGetUserInfo(event){
-    console.log(event)
-  },
-
 
   /**
    * 页面的初始数据
